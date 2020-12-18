@@ -6,7 +6,7 @@ metadata:
   description: Create an API powered with .NET Core Web API
   tags:
     - recommended
-    - dot.net
+    - dotnet
 spec:
   owner: web@example.com
   templater: cookiecutter
