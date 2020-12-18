@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: dotnet-web-api-template
   title: .Net Core Web API Template
-  description: Create an API powered with .NET Core Web API
+  description: Create a new ASP.NET Core Web API
   tags:
     - recommended
     - dotnet
