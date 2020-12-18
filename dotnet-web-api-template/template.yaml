@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: dotnet-web-api-template
+  title: .Net Core Web API Template
+  description: Create an API powered with .NET Core Web API
+  tags:
+    - recommended
+    - dot.net
+spec:
+  owner: web@example.com
+  templater: cookiecutter
+  type: api
+  path: '.'
+  schema:
+    required:
+      - component_id
+      - description
+      - dotnet_namespace
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Help others understand what this website is for.
+      dotnet_namespace:
+        title: Namespace
+        type: string
+        description: Root namespace       
