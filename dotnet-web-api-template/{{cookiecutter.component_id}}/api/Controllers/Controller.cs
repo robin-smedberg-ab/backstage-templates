@@ -1,17 +1,17 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using { { cookiecutter.dotnet_namespace } }.Services
+using {{ cookiecutter.dotnet_namespace }}.Services
 
 namespace {{ cookiecutter.dotnet_namespace }}.Controllers
 {
   [ApiController]
   [Route("[controller]")]
-  public class FixedcostController : ControllerBase
+  public class Controller : ControllerBase
   {
     private readonly IService _service;
 
-    public FixedcostController(IService service)
+    public Controller(IService service)
     {
       _service = service;
     }

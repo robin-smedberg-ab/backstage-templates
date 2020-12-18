@@ -10,7 +10,7 @@ metadata:
 spec:
   owner: web@example.com
   templater: cookiecutter
-  type: api
+  type: service
   path: '.'
   schema:
     required:

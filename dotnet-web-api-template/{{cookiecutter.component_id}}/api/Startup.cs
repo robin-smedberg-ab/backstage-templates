@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using { { cookiecutter.dotnet_namespace } }.Services
+using {{ cookiecutter.dotnet_namespace }}.Services
 
 namespace {{ cookiecutter.dotnet_namespace }}.Api
 {
